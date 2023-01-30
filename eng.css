@@ -1,0 +1,16 @@
+/* @theme eng */
+
+@import 'default';
+
+:root {
+    width: 960px;
+    height: 720px;
+    font-size: 28px;
+    font-family: 'Yu Mincho';
+    padding: 1.0rem;
+}
+
+:root::after {
+    font-size: 16pt;
+    content: attr(data-marpit-pagination) '/' attr(data-marpit-pagination-total);
+}
