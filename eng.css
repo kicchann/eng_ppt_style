@@ -25,11 +25,11 @@
 
 section {
     background-image:
-        url(./images/line_01.png),
-        url(./images/line_02.png),
-        url(./images/pilosopy.png),
-        url(./images/campany_name.png),
-        url(./images/background_inv.jpg);
+        url(images/line_01.png),
+        url(images/line_02.png),
+        url(images/pilosopy.png),
+        url(images/campany_name.png),
+        url(images/background_inv.jpg);
     background-repeat:
         no-repeat,
         no-repeat,
@@ -110,12 +110,12 @@ footer {
 
 section.top {
     background-image:
-        url(./images/logo.png),
-        url(./images/line_01.png),
-        url(./images/line_02.png),
-        url(./images/pilosopy.png),
-        url(./images/campany_name.png),
-        url(./images/background.jpg);
+        url(images/logo.png),
+        url(images/line_01.png),
+        url(images/line_02.png),
+        url(images/pilosopy.png),
+        url(images/campany_name.png),
+        url(images/background.jpg);
     background-repeat:
         no-repeat,
         no-repeat,
