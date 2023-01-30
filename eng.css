@@ -10,7 +10,173 @@
     padding: 1.0rem;
 }
 
+:root {
+    width: 960px;
+    height: 720px;
+    font-size: 28px;
+    font-family: 'Yu Mincho';
+    padding: 1.0rem;
+}
+
 :root::after {
     font-size: 16pt;
     content: attr(data-marpit-pagination) '/' attr(data-marpit-pagination-total);
+}
+
+section {
+    background-image:
+        url(./images/template_line_01.png),
+        url(./images/template_line_02.png),
+        url(./images/template_pilosopy.png),
+        url(./images/template_campany_name.png),
+        url(./images/template_background_inv.jpg);
+    background-repeat:
+        no-repeat,
+        no-repeat,
+        no-repeat,
+        no-repeat,
+        no-repeat;
+    background-position-x:
+        95%,
+        95%,
+        95%,
+        20%,
+        0%;
+    background-position-y:
+        8%,
+        90%,
+        5%,
+        93%,
+        0%;
+    background-size:
+        85%,
+        85%,
+        15%,
+        20%,
+        85%;
+}
+
+h1 {
+    border-bottom: none;
+    font-size: 1.5rem;
+    position: absolute;
+    text-align: left;
+    top: 1%;
+    left: 15%;
+    color: black;
+}
+
+h2 {
+    border-bottom: none;
+    font-size: 1.0rem;
+    position: absolute;
+    text-align: left;
+    top: 8%;
+    left: 15%;
+    color: black;
+}
+
+p,
+ul,
+ol {
+    border-bottom: none;
+    font-size: 1.0rem;
+    position: absolute;
+    text-align: left;
+    top: 20%;
+    left: 15%;
+    color: black;
+}
+
+section.lines {
+    border-bottom: none;
+    font-size: 1.0rem;
+    position: absolute;
+    text-align: left;
+    top: 20%;
+    left: 15%;
+    color: black;
+}
+
+footer {
+    border-bottom: none;
+    font-size: 0.4em;
+    color: grey;
+    position: absolute;
+    text-align: right;
+    top: 90%;
+    left: 63%;
+}
+
+section.top {
+    background-image:
+        url(./images/templete_logo.png),
+        url(./images/template_line_01.png),
+        url(./images/template_line_02.png),
+        url(./images/template_pilosopy.png),
+        url(./images/template_campany_name.png),
+        url(./images/template_background.jpg);
+    background-repeat:
+        no-repeat,
+        no-repeat,
+        no-repeat,
+        no-repeat,
+        no-repeat,
+        no-repeat;
+    background-position-x:
+        2%,
+        95%,
+        95%,
+        95%,
+        20%,
+        0%;
+    background-position-y:
+        2%,
+        8%,
+        90%,
+        5%,
+        93%,
+        0%;
+    background-size:
+        12%,
+        85%,
+        85%,
+        15%,
+        20%,
+        100%;
+}
+
+section.top>h1 {
+    border-bottom: none;
+    font-size: 2.0em;
+    position: absolute;
+    text-align: left;
+    top: 30%;
+    left: 15%;
+    color: black;
+}
+
+section.top>h2 {
+    border-bottom: none;
+    font-size: 1.5em;
+    position: absolute;
+    text-align: left;
+    top: 50%;
+    left: 15%;
+    color: black;
+}
+
+section.top>p {
+    border-bottom: none;
+    font-size: 1.0em;
+    text-align: right;
+    line-height: 0.5rem;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    color: black;
+}
+
+section.top::after {
+    font-size: 0pt;
 }
