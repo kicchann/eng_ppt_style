@@ -26,9 +26,9 @@
 section {
     background-image:
         url(./images/line_01.png),
-        url(https://github.com/shinichiro0821/eng_ppt_style/blob/e639dbeeff9b2d8f7d10e7f908a6264b1c0db1c3/images/line_02.png),
-        url(https://github.com/shinichiro0821/eng_ppt_style/blob/e639dbeeff9b2d8f7d10e7f908a6264b1c0db1c3/images/pilosopy.png),
-        url(https://github.com/shinichiro0821/eng_ppt_style/blob/e639dbeeff9b2d8f7d10e7f908a6264b1c0db1c3/images/campany_name.png),
+        url(./images/line_02.png),
+        url(./images/pilosopy.png),
+        url(https://github.com/shinichiro0821/eng_ppt_style/blob/e639dbeeff9b2d8f7d10e7f908a6264b1c0db1c3/images/campany_name.png?raw=true),
         url(https://github.com/shinichiro0821/eng_ppt_style/blob/e639dbeeff9b2d8f7d10e7f908a6264b1c0db1c3/images/background.jpg);
     background-repeat:
         no-repeat,
