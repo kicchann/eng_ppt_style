@@ -29,7 +29,7 @@ section {
         url(https://raw.githubusercontent.com/shinichiro0821/eng_ppt_style/main/images/line_02.png),
         url(https://raw.githubusercontent.com/shinichiro0821/eng_ppt_style/main/images/pilosopy.png),
         url(https://raw.githubusercontent.com/shinichiro0821/eng_ppt_style/main/images/campany_name.png),
-        url(https://raw.githubusercontent.com/shinichiro0821/eng_ppt_style/main/images/background.jpg);
+        url(https://raw.githubusercontent.com/shinichiro0821/eng_ppt_style/main/images/background_inv.jpg);
     background-repeat:
         no-repeat,
         no-repeat,
@@ -115,7 +115,7 @@ section.top {
         url(https://raw.githubusercontent.com/shinichiro0821/eng_ppt_style/main/images/line_02.png),
         url(https://raw.githubusercontent.com/shinichiro0821/eng_ppt_style/main/images/pilosopy.png),
         url(https://raw.githubusercontent.com/shinichiro0821/eng_ppt_style/main/images/campany_name.png),
-        url(https://raw.githubusercontent.com/shinichiro0821/eng_ppt_style/main/images/background_inv.jpg);
+        url(https://raw.githubusercontent.com/shinichiro0821/eng_ppt_style/main/images/background.jpg);
     background-repeat:
         no-repeat,
         no-repeat,
@@ -143,7 +143,7 @@ section.top {
         85%,
         15%,
         20%,
-        100%;
+        85%;
 }
 
 section.top>h1 {
